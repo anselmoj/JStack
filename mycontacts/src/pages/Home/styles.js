@@ -4,8 +4,28 @@ export const Container = styled.div`
   margin-top: 32px;
 `;
 
+export const InputSearchContainer = styled.div`
+  width: 100%;
+
+  input {
+    width: 100%;
+    background: #FFF;
+    border: none;
+    border-radius: 25px;
+    height: 58px;
+    box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.04);
+    outline: 0;
+    padding: 0 16px;
+
+    &::placeholder {
+      color: #BCBCBC;
+    }
+  }
+`;
+
 export const Header = styled.header`
   display: flex;
+  margin-top: 32px;
   align-items: center;
   justify-content: space-between;
 
