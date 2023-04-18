@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export default styled.button`
-  width: 100%;
   border: none;
+  padding: 0 16px;
   color: #fff;
   background: ${({ theme }) => theme.colors.primary.main};
   border: none;
