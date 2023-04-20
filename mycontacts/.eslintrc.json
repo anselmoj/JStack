@@ -4,7 +4,6 @@
         "es2021": true
     },
     "extends": [
-        "@rocketseat/eslint-config/node",
         "plugin:react/recommended",
         "airbnb"
     ],
